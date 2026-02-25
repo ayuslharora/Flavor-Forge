@@ -19,6 +19,7 @@ function App() {
       {/* <Navbar /> */}
       <Routes>
         <Route path="/Home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Favorites" element={<Favorites />} />
         <Route path="/Random" element={<RecipeAI random={true} />} />
         <Route path="/Recipe/:id" element={<RecipeAI random={false} />} />
