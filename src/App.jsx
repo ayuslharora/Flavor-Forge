@@ -18,6 +18,7 @@ function App() {
     <BrowserRouter>
       {/* <Navbar /> */}
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/" element={<Home />} />
         <Route path="/Favorites" element={<Favorites />} />
